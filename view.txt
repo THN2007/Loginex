@@ -1,0 +1,113 @@
+HTML ⬇️⬇️
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Document</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="mother">
+   <div class="container">
+    <div class="head">
+    <p id="head"><span>TY</span>infinity</p>
+    <p id="des">Fill Your information</p>
+    </div>
+    <!--hhssn-->
+    <div class="form">
+     <input type="text" name="" id="input" placeholder="First Name">
+     <input type="text" name="" id="input" placeholder="Last Name">
+     <input type="email" name="" id="input" placeholder="Email Address">
+    <input type="password" name="" id="input" placeholder="Password">
+    <div class="footer">
+    <a href="">forgotten password?</a>
+    </div>
+    <div class="footer2">
+    <input type="button" value="Sign Up" id="buttom">
+    </div>
+    </div>
+   </div>
+    <a href="./index.htm">./index.htm</a>
+  </div>
+</body>
+</html>
+
+
+CSS ⬇️⬇️
+
+
+.mother{
+ display: flex;
+ flex-direction: column;
+ justify-content:center;
+ height: 100%;
+ background-image: radial-gradient(grey,white);
+/* background-position: center;
+ background-position: top;
+ background-repeat: no-repeat;*/
+}
+.container{
+ display: flex;
+ flex-direction: column;
+ background-color: #FAFAFA;
+ margin: 30px auto;
+ border-radius: 10px
+}
+.form{
+  display: flex;
+  flex-direction: column;
+}
+#input{
+ margin: 10px;
+ height: 40px;
+ border-radius: 10px;
+ border:none;
+ outline: none;
+ background-color: #E0E0E0;
+ padding-left: 5px;
+}
+a{
+ font-size: 7px;
+ display: block;
+ float: right;
+ text-decoration: none;
+ color:#03A9F4;
+}
+.head{
+ text-align: center;
+ opacity: 5;
+}
+.footer{
+ margin-right: 10px;
+ margin-left: 10px;
+ 
+}
+.footer2{
+ text-align: center;
+ margin: 10px;
+}
+#buttom{
+ border: none;
+ outline: none;
+ border-radius: 2px;
+ font-size: 15px;
+ height: 30px;
+ background-color: #03A9F4;
+}
+span{
+ color:#03A9F4;
+ font-weight: bold;
+}
+#des{
+ font-weight: lighter;
+}
+#head{
+ font-weight: 300;
+}
+*::selection{
+ background-color: #03A9F4;
+}
+#view{
+ text-align: center;
+}
